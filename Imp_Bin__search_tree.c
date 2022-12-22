@@ -77,7 +77,6 @@ or maximum element in the left subtree */
 int main() {
     int data, ch, i, n;
     NODE * root = NULL;
-    //clrscr();
     while (1) {
       printf("\n**********BINARY SEARCH TREE (BST) *********** \n");
       printf("\n 1.Insertion in Binary Search Tree");
