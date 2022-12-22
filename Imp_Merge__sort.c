@@ -7,7 +7,7 @@ void merge(int array[], int first, int mid, int last);
 int main() {
    int array[30], n, i;
 
-   printf("\n ******** MERGE SORT ************n\n");
+   printf("\n ******** MERGE SORT ************\n");
    printf("Enter no of elements:");
    scanf("%d", & n);
    printf("Enter array elements:");
