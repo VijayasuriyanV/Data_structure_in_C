@@ -32,8 +32,7 @@ int main()
     {
     for (i = 0; i<k-1; ++i)
     ptr = ptr->next;
-    ptr->next = ptr->next->next; // Remove the eliminated player from the
-    //circular linked list
+    ptr->next = ptr->next->next; // Remove the eliminated player from the circular linked list
     }
     printf("\n The Winner is Player %d", ptr->player_id);
     return 0;
