@@ -22,6 +22,5 @@ printf("The bitwise expression returns: %d\n", shift);
 f = 10;
 addr = &f;
 printf("The pointer expression returns: %p\n",addr);
-getch();
 return 0;
 }
