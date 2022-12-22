@@ -43,7 +43,7 @@ int main()
 char infx[50],pofx[50],ch,elem; 
 int i=0,k=0;
 
-printf("\n\nRead the Infix Expression ?"); 
+printf("\n\nEnterthe Infix Expression : "); 
 scanf("%s",infx);
 push('#');
 while( (ch=infx[i++]) != '\0')
