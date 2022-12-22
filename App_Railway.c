@@ -5,7 +5,7 @@ int first=5,second=5,i=0,c;
 struct node
 {
     int ticketno;
-    int phoneno;
+    long long int phoneno;
     char name[100]; 
     char  address[100];
 } s[15];
@@ -16,7 +16,7 @@ void booking()
     printf("\n Name:");
     scanf("%s",s[i].name); 
     printf("\nPhonenumber:");
-    scanf("%d",&s[i].phoneno);
+    scanf("%lld",&s[i].phoneno);
     printf("\n Address:");
     scanf("%s",s[i].address);
     printf("\n Ticketnumber only 15:");
